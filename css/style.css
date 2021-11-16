@@ -1,0 +1,439 @@
+/* ここから下に記載していく */
+header{
+    display: flex;
+    /* ヘッダー全体を横並び */
+}
+
+.logop{
+    padding: 20px 0 20px 50px;
+}
+
+nav{
+    margin-left: auto;
+    /* ナビを右寄せ。ブロック要素 */
+}
+
+ul{
+    display: flex;
+    /* リストをよこならび */
+    font-size: 21px;
+}
+
+li{
+    font-weight: bold;
+    padding: 50px 50px 50px 0;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ここからタイトル画像＋文字 */
+.a{
+    position: relative;
+}
+
+.a1 {
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    /* absoluteにしたらポジしょん指定！ */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.a2 {
+    position: absolute;
+    color:white;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 140px;
+}
+
+.a img{
+    width: 100%;
+}
+
+/* h2全体に適応 */
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ここからアバウト */
+.about{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.about h2{
+    color: #ffd61a;
+}
+
+.b1{
+    font-size: 18px;
+    padding-top: 30px;
+}
+.b2{
+    font-size: 16px;
+    padding-top: 60px;
+}
+.b3{
+    font-size: 16px;
+    padding-top: 40px;
+}
+.b4{
+    font-size: 16px;
+}
+.b5{
+    padding-top: 40px;
+    font-size: 16px;
+}
+.b6{
+    font-size: 16px;
+    padding-top: 40px;
+}
+.b7{
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+/* 写真を要編集 */
+.aboutpic{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutpic img{
+    width: 300px;
+}
+
+/* ここからコース */
+.course{
+    text-align: center;
+}
+
+.course h2{
+    padding-top: 60px;
+}
+
+.c1{
+    padding-top: 30px;
+}
+
+.c2{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+/* ここからコースのコンテンツ */
+
+.course1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* フレックスボックス中央スタート */
+}
+
+.course1 img{
+    width: 600px;
+}
+
+table.course1t {
+    width: 600px;
+  }
+
+.course1title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+td.course1moji1{
+    font-size: 16px;
+    padding: 40px 0 0 0;
+    padding-left: 50px;
+}
+
+td.course1moji{
+    font-size: 16px;
+    padding: 10px 0 0 0;
+    padding-left: 50px;
+}
+
+/*コース2こめの調整方法不明 */
+.course2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course2 img{
+    width: 600px;
+}
+
+
+table.course2t {
+    width: 600px;
+  }
+
+.course2title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 110px;
+    padding-right: 50px;
+}
+
+td.course2moji1{
+    font-size: 16px;
+    padding: 40px 0 0 0;
+    padding-left: 110px;
+    padding-right: 50px;
+}
+
+td.course2moji{
+    font-size: 16px;
+    padding: 10px 0 0 0;
+    padding-left: 110px;
+    padding-right: 50px;
+}
+
+.course3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course3 img{
+    width: 600px;
+}
+
+table.course3t {
+    width: 600px;
+  }
+
+.course3title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+td.course3moji1{
+    font-size: 16px;
+    padding: 40px 0 0 0;
+    padding-left: 50px;
+}
+
+
+td.course3moji{
+    font-size: 16px;
+    padding: 10px 0 0 0;
+    padding-left: 50px;
+}
+
+
+/* ここからニュース */
+.news h2{
+    color: #ffd61a;
+}
+
+h2{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.news p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+/* ここからニュースコンテンツ */
+.newscon{
+    padding-right: 30px;
+}
+
+.newsall{
+    display: flex;
+    justify-content: center
+}
+
+.newscon a{
+    text-decoration: none;
+}
+
+a img{
+    width: 350px;
+}
+
+table.news{
+    width: 350px;
+}
+
+.news1{
+    font-weight: bold;
+    padding-top: 30px;
+    color: black;
+}
+
+.news2{
+    padding-top: 24px;
+    color: black;
+}
+
+/* ボタン */
+.more{
+    text-align: center;
+    line-height: 60px;
+    /* 文字上下中央ぞろえ */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 18px;        /* 文字サイズ */
+    background    : hsla(49, 100%, 51%, 0.856);     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+}
+
+/* アクセス */
+.access p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+/* 地図埋め込み */
+.map{
+    padding-bottom: 60px;
+    text-align: center;    
+}
+
+iframe{
+    width: 100%;
+}
+
+/* 学校情報 */
+.access1{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.access1 tr{
+    height: 50px;
+}
+
+.access tr td{
+    padding-left: 30px;
+}
+
+/* 問い合わせフォーム */
+.contactmoji{
+    text-align: center;
+}
+
+
+.d1{
+    padding-top: 30px;
+}
+
+.d2{
+    padding-top: 60px;
+}
+
+.d3{
+    padding-top: 30px;
+}
+
+/* フォーム */
+
+td{
+    font-size: 16px;
+}
+
+.tablecontact{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+table.tablecontact1{
+    border-collapse: collapse;
+}
+td.title{
+    padding-left:  8px;
+    padding-right: 64px;
+    border: solid 2px #bfbfbf;
+    border-left-style: none;
+}
+
+td.input{
+    padding-top: 8px;
+    padding-right: 64px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    border: solid 2px #bfbfbf;
+    border-right-style: none;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    padding-bottom: 24px;
+}
+
+select{
+    padding-bottom: 8px;
+}
+
+.inputs{
+    padding-left: 24px;
+}
+
+/*送信ボタン  */
+.send{
+    text-align: center;
+    line-height: 60px;
+    /* 文字上下中央ぞろえ */
+    padding-top: 30px;
+    padding-bottom: 140px;
+}
+
+.button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 18px;        /* 文字サイズ */
+    background    : hsla(49, 100%, 51%, 0.856);     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+}
+
+
+/* フッター */
+footer{
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+
